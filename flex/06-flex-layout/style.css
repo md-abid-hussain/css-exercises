@@ -25,3 +25,61 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul{
+  display: flex;
+  list-style-type: none;
+  padding-left:0;
+}
+
+a{
+  text-decoration:none;
+  color:grey;
+}
+
+a:visited{
+  color:rgb(73, 73, 73);
+}
+
+a:hover,a:focus{
+  color:rgb(133, 111, 111);
+}
+
+a:active{
+  color:rgb(24, 24, 24);
+}
+
+body{
+  display: flex;
+  flex-flow:column;
+  align-items: center;
+}
+
+.header{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+}
+
+.left-links li{
+  margin-left:1rem;
+}
+
+.right-links li{
+  margin-right:1rem;
+}
+
+.content{
+  flex:1 0 auto;
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display:flex;
+  width:100%;
+  background-color:rgba(203, 198, 198, 0.367);
+  justify-content:space-between;
+}
